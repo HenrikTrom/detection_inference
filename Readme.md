@@ -1,5 +1,7 @@
 # 🚀 Detection-Inference
 
+[![DOI](https://zenodo.org/badge/991330162.svg)](https://zenodo.org/badge/latestdoi/991330162)
+
 A high-performance, multi-threaded C++ pipeline for real-time **multi-camera object detection** using [YOLOv8](https://docs.ultralytics.com/).  
 
 Developed as part of [my PhD thesis](todo-thesis-link) to enable **3D object detection** and generate proposals for my [keypoint inference pipeline](https://github.com/HenrikTrom/pose-inference).
