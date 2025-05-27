@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "detection_inference"
 version: 1.0.0
-doi: 10.5281/zenodo.15526573
+doi: 10.5281/zenodo.15527774  
 date-released: 2025-05-27
 license: CC0-1.0 
 url: https://github.com/HenrikTrom/detection_inference
