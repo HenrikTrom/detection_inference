@@ -1,0 +1,4 @@
+*.onnx
+*.pth
+*.pt
+*.engine.*

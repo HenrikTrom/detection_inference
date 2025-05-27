@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Detection Model Config",
+  "type": "object",
+  "properties": {
+    "onnxModelPath": {
+      "type": "string"
+    },
+    "trtModelPath": {
+      "type": "string"
+    },
+    "engineFileDir": {
+      "type": "string"
+    },
+    "modelInputWidth": {
+      "type": "integer"
+    },
+    "input_height": {
+      "type": "integer"
+    },
+    "input_width": {
+      "type": "integer"
+    },
+    "precision": {
+      "type": "string",
+      "enum": ["FP16", "FP32", "INT8"]
+    },
+    "probabilityThreshold": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "nmsThreshold": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "topK": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "calibrationBatchSize": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "class_names": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "onnxModelPath",
+    "trtModelPath",
+    "engineFileDir",
+    "modelInputWidth",
+    "input_height",
+    "input_width",
+    "precision",
+    "probabilityThreshold",
+    "nmsThreshold",
+    "topK",
+    "calibrationBatchSize",
+    "class_names"
+  ],
+  "additionalProperties": false
+}
