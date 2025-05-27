@@ -15,7 +15,7 @@ authors:
     affiliation: University of Göttingen
 keywords:
   - real-time
-  - keypoint-detection
+  - object-detection
   - multi-threading
   - yolo
   - c++
