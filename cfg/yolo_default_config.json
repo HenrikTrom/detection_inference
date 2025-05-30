@@ -1,7 +1,7 @@
 {
-    "onnxModelPath": "/home/docker/workspace/modules/detection-inference/models/yolov8n_coco_human5_fixed.onnx",
+    "onnxModelPath": "/home/docker/workspace/modules/detection_inference/models/yolov8n_coco_human5_fixed.onnx",
     "trtModelPath": "",
-    "engineFileDir": "/home/docker/workspace/modules/detection-inference/models/",
+    "engineFileDir": "/home/docker/workspace/modules/detection_inference/models/",
     "modelInputWidth": 640,
     "input_height": 768,
     "input_width": 1024,
