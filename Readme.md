@@ -6,7 +6,7 @@ A high-performance, multi-threaded C++ pipeline for real-time **multi-camera obj
 
 Developed as part of [my PhD thesis](todo-thesis-link) to enable **3D object detection** and generate proposals for my [keypoint inference pipeline](https://github.com/HenrikTrom/pose-inference).
 
-This module supports deployment in robotic systems for real-time tracking and perception and is part of my  **ROS/ROS2** [real-time 3D tracker](https://github.com/HenrikTrom/Docker-Flir-Multi-Camera).
+This module supports deployment in robotic systems for real-time tracking and perception and is part of my  **ROS/ROS2** [real-time 3D tracker](https://github.com/HenrikTrom/real-time-3D-tracking) and its [docker-implementation](https://github.com/HenrikTrom/ROSTrack-RT-3D).
 
 
 ![System Setup](content/4cams.gif)
