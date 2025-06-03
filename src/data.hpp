@@ -4,6 +4,7 @@
 #include<time.h>
 #include <utility>
 #include <opencv2/core/cuda.hpp>
+#include "config.h"
 
 namespace detection_inference{
 
